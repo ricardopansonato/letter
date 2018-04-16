@@ -5,9 +5,6 @@
     </div>
   </div>
   <div class="p-a-md box-color r box-shadow-z1 text-color m-a">
-    <div class="m-b text-sm">
-      Entre com o seu e-mail CVC
-    </div>
     <form name="form" ng-submit="vm.save()" role="form">
       <div class="md-form-group float-label">
         <input type="email" class="md-input" ng-model="vm.email" required/>
@@ -31,9 +28,5 @@
     <div ng-if="vm.hasError" class="m-b text-sm alert-danger">
       {{vm.error}}
     </div>
-  </div>
-
-  <div class="p-v-lg text-center">
-    <div class="m-b"><a ui-sref="access.forgot-password" href="#!/forgot-password" class="text-blue _600">Esqueceu a senha?</a></div>
   </div>
 </div>
